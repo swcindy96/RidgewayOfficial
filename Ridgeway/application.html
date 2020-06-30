@@ -53,51 +53,37 @@
             <H2>Applicant</H2> 
 
     <main>
-<p><b>Applicant Name</b>:  <br>
+ <H2>Membership Application </H2> 
+     <p>Please complete the form below to tell us about yourself and join Ridgeway Country Club!</p>
             
-          <b> Credit Score</b>:  <br>
+        <form action = "confirmation.html" method ="get">
+        <form action = "cancelapp.html"   method="get">
+            <label for="firstname">First Name: </label><input type = "text" name="firstname" id="firstname" plaeholder="First Name"><br>
             
-        <b> Employment Status</b>:  <br>
-    
-        <b> Account Number </b>:
-        </p>
-        <p></p>
-     <hr>
+            <label for ="lastname">Last Name: </label><input type = "text" name="lastname" id="lastname" plaeholder="Last Name"><br>
             
-            <h2>Applicats Marriage and dependence status </h2>
-            
+            <label for="username">Username: </label><input type = "text" name="username" id="username" ><br>
+            <label for="password">Password: </label><input type = "password" name="password" id="password" ><br>
            
-                 
-             <p><b>Marriage Status</b>:  <br>
             
-          <b> Number of Dependents</b>:  <br>
+            Membership Type:
+                <input type = "radio" name="membership" id="regular" value="regular golf membership"><label for = "regular">Regular Golf Membership   </label>
+               <input type = "radio" name="membership" id="social" value="social membership"> <label for = "social">Social Membership</label> 
+            <br>
             
-        </p>
-    
-    
+            Reason for Application: <br>
         
-        <p></p>
+             <input type = "checkbox" name="golf" id="golf"> <label for = "golf">Golf </label><br> 
+            <input type = "checkbox" name="Tennis" id="Tennis"> <label for = "Tennis">Tennis </label><br> 
+            <input type = "checkbox" name="Weddings" id="Weddings"><label for ="Weddings"> Weddings</label><br>
+            <input type = "checkbox" name="Meetings" id="Meetings"><label for ="Meetings"> Meetings</label><br>
+            <input type = "checkbox" name="Other reasons" id="Other reasons"><label for ="Other reasons"> Other reasons</label><br>
             
-            <hr>
+          If you have other reasons, what is it? (*optional) <br>
+            <textarea></textarea><br>
             
-            <h2> Criminal History </h2>
-            
-    
-    
-    
-    <p><b>Drug Test Results</b>:  <br>
-            
-          <b> Misdemeanor History</b>:  <br>
-            
-        <b> Felony History</b>:  <br>
-    
-        </p>
-  
-        
-      <hr>
-    
-    
-    Application Result <p></p>
+   
+    </form></form>    
     
 	    <div class="login-form__action">
                         <button type="button" class="button" href="confirmed.html">Confirm</button>
