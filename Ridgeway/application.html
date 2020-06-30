@@ -52,6 +52,38 @@
             
      
     <main>
+<H2>Membership Application </H2> 
+     <p>Please complete the form below to tell us about yourself and join Ridgeway Country Club!</p>
+            
+        <form action = "confirmation.html" method ="get">
+        <form action = "cancelapp.html"   method="get">
+            <label for="firstname">First Name: </label><input type = "text" name="firstname" id="firstname" plaeholder="First Name"><br>
+            
+            <label for ="lastname">Last Name: </label><input type = "text" name="lastname" id="lastname" plaeholder="Last Name"><br>
+            
+            <label for="username">Username: </label><input type = "text" name="username" id="username" ><br>
+            <label for="password">Password: </label><input type = "password" name="password" id="password" ><br>
+           
+            
+            Membership Type:
+                <input type = "radio" name="membership" id="regular" value="regular golf membership"><label for = "regular">Regular Golf Membership   </label>
+               <input type = "radio" name="membership" id="social" value="social membership"> <label for = "social">Social Membership</label> 
+            <br>
+            
+            Reason for Application: <br>
+        
+             <input type = "checkbox" name="golf" id="golf"> <label for = "golf">Golf </label><br> 
+            <input type = "checkbox" name="Tennis" id="Tennis"> <label for = "Tennis">Tennis </label><br> 
+            <input type = "checkbox" name="Weddings" id="Weddings"><label for ="Weddings"> Weddings</label><br>
+            <input type = "checkbox" name="Meetings" id="Meetings"><label for ="Meetings"> Meetings</label><br>
+            <input type = "checkbox" name="Other reasons" id="Other reasons"><label for ="Other reasons"> Other reasons</label><br>
+            
+          If you have other reasons, what is it? (*optional) <br>
+            <textarea></textarea><br>
+            
+   
+    </form></form>        
+	   
  <div class="login-form__action">
                         <button type="button" class="button" href="confirmed.html">Confirm</button>
 	    </div>
