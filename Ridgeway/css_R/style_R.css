@@ -58,3 +58,13 @@ body{
    padding: 8px;
    background-color: lightgray;
 }
+
+.button{
+               
+   color: black;
+   border: 1px solid black;
+   margin: 5px;
+   border-radius: 5px;
+   padding: 8px;
+   background-color: lightgray;
+}
